@@ -9,7 +9,7 @@ namespace App\Example\Repository;
  * repository methods below.
  */
 
-use App\Core\Repository\AbstractRepository as  AbstractRepository;
+use Siworks\Slim\Doctrine\Repository\AbstractRepository as  AbstractRepository;
 use Doctrine\ORM\Query;
 
 class AccountRepository extends AbstractRepository

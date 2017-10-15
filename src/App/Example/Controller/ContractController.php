@@ -2,7 +2,7 @@
 namespace App\Example\Controller;
 
 use App\Example\Model\ContractModel;
-use App\Core\Controller\AbstractController;
+use Siworks\Slim\Doctrine\Controller\AbstractController;
 
 class ContractController extends AbstractController
 {

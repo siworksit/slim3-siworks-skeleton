@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Ramsey\Uuid\Uuid as Uuid;
 use \Doctrine\Common\Collections\ArrayCollection as ArrayCollection;
 
-use \App\Core\Entity\AbstractEntity as AbstractEntity;
+use Siworks\Slim\Doctrine\Entity\AbstractEntity as AbstractEntity;
 
 /**
  * @ORM\Entity(repositoryClass="App\Example\Repository\AccountRepository")

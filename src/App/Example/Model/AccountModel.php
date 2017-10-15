@@ -8,7 +8,7 @@
 
 namespace App\Example\Model;
 
-use App\Core\Model\AbstractModel;
+use Siworks\Slim\Doctrine\Model\AbstractModel;
 use Doctrine\ORM\EntityManager;
 
 class AccountModel extends AbstractModel

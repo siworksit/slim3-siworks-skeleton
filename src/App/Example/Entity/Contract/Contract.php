@@ -11,7 +11,7 @@
 namespace App\Example\Entity\Contract;
 
 use Doctrine\ORM\Mapping as ORM;
-use \App\Core\Entity\AbstractEntity as AbstractEntity;
+use Siworks\Slim\Doctrine\Entity\AbstractEntity as AbstractEntity;
 
 /**
  * @ORM\Entity(repositoryClass="App\Example\Repository\ContractRepository")
